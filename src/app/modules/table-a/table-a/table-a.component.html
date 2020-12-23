@@ -1,0 +1,62 @@
+<h3>test</h3>
+<h4>1</h4>
+<input (change)="leapyear($event)">
+<h2>ans : {{ result_1 }}</h2>
+<br>
+<br>
+<br>
+<h4>2</h4>
+<h2>Fizz Buzz FizzBuzz</h2>
+<input (change)="getAnsNo2($event)">
+<!-- <button (click)="getAnsNo2()">ans 2</button> -->
+<p>{{ result_2 }}</p>
+<br>
+<br>
+<br>
+<h2>3.1</h2>
+<input (change)="pyramid1($event)">
+<!-- <div style="background-color: antiquewhite;" *ngIf="isShow_1"> -->
+    <p *ngFor="let i of result_3;" style="display: block;">{{i}}</p>
+<!-- </div> -->
+<br>
+<br>
+<br>
+<h2>3.2</h2>
+<input (change)="pyramid2($event)">
+<!--p *ngFor="let i of result_4;" style="display: block;">
+  <span [innerHTML]='i'></span>
+</!--p-->
+<pre [innerHTML]='result_4'></pre>
+
+<br>
+<br>
+<br>
+<h2>3.3</h2>
+<input (change)="pyramid3($event)">
+<br>
+<pre [innerHTML]='result_5'></pre>
+<br>
+<br>
+<br>
+<h2>3.4</h2>
+<input (change)="pyramid4($event)">
+<br>
+<pre [innerHTML]='result_6'></pre>
+<br>
+<br>
+<br>
+<h2>3.5</h2>
+<input (change)="pyramid5($event)">
+<pre [innerHTML]='result_7'></pre>
+<br>
+<br>
+<br>
+<h2>3.6</h2>
+<input (change)="letters($event)">
+<pre [innerHTML]='result_8'></pre>
+<br>
+<br>
+<br>
+<h2>PrimeNumber</h2>
+<input (change)="primenumber($event)">
+<h1>= :{{ prime }} </h1>
