@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 how to run 
-1.npm install
-2.ng serve --open
+1.npm install or npm install tslib
+3.ng serve --open
 
 
 
